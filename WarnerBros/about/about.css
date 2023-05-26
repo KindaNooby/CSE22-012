@@ -1,0 +1,108 @@
+body {
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+body * {
+    box-sizing: border-box;
+}
+.main {
+    border: 1px solid #000;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(/res/045423e3d21b8df38f577867f1e156f7.jpg);
+    background-size: cover;
+}
+.main * {
+    margin: 0;
+}
+.title {
+    font-size: 6vh;
+    font-weight: bold;
+    width: fit-content;
+    padding: 0.4rem;
+    color: #fff;
+    margin-bottom: .8rem;
+}
+.details {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.details p {
+    font-size: 1rem;
+    padding: 0.4rem;
+    background-color: rgba(255,255,255,0.01);
+    color: #fff;
+    backdrop-filter: blur(4px);
+}
+.images {
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    overflow-x: scroll;
+}
+.images::-webkit-scrollbar {
+    display: none;
+}
+.images img {
+    height: 15vmax;
+    min-width: 15vmax;
+    border-radius: 2px;
+    object-fit: cover;
+ 
+}
+/* END OF MAIN */
+
+.plot {
+    border: 0px solid #000;
+}
+.plot h1 {
+    font-size: 8vh;
+    margin: .5rem;
+    margin-left: 0;
+}
+.description {
+    line-height: 1.5rem;
+}
+/* END OF PLOT */
+.platform {
+    display: flex;
+    gap: 1rem;
+}
+.platforms {
+    margin-bottom: 2rem;
+}
+.platforms img {
+    height: 10vmax;
+    width: 10vmax;
+    border-radius: 2px;
+}
+.cast {
+    border: 0px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+}
+.actor {
+    border: 0px solid #000;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.actor img {
+    border: 1px solid #000;
+    height: 15vmax;
+    object-fit: cover;
+    width: 15vmax;
+    border-radius: 50%;
+}
+.name {
+    text-align: center;
+    margin: .4rem;
+}
