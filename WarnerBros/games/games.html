@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="games.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navigation">
+        
+        <p class="company">Warner Bros.</p>
+        <input type="checkbox" name="nav-check" id="nav-check" hidden>
+        
+        <div class="nav">
+            <p class="company">Warner Bros.</p>
+            <ul>
+                <li><a href="#" class="">Home</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Games And Apps</a></li>
+                <li><a href="#">Collections</a></li>
+            </ul>
+        </div>
+        
+        <label for="nav-check" class="ham">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+        
+    </nav>
+    
+    <!-- Feature Section -->
+
+
+    <section id="pipeline">
+
+        <h2>Game Changers</h2>
+        <p>Our top rated games to take you on an epic virtual journey</p>
+        
+        <div class="carousel">
+    
+            <div class="card" onclick="gotham()">
+                <div class="img">
+                  <img src="/reso/gotham knights.jpg" alt="">
+                </div>
+                <p class="title">Gotham Knights</p>
+                <div class="platform">
+                  <span class="rating">2023</span>
+                  <img src="/reso/Steam_(service)-Logo.wine.svg" alt="">
+                  <img src="/reso/PlayStation-Icon-Logo.wine.svg" alt="">
+                  <img src="/reso/Xbox-Logo.wine.svg" alt="">
+                </div>
+              </div>
+            <div class="card">
+                <div class="img">
+                  <img src="/reso/arkham.jpg" alt="">
+                </div>
+                <p class="title">Batman: Arkham</p>
+                <div class="platform">
+                  <span class="rating">2023</span>
+                  <img src="/reso/Steam_(service)-Logo.wine.svg" alt="">
+                  <img src="/reso/PlayStation-Icon-Logo.wine.svg" alt="">
+                  <img src="/reso/Xbox-Logo.wine.svg" alt="">
+                </div>
+              </div>
+            <div class="card" onclick="justice()">
+                <div class="img">
+                  <img src="/reso/injustice2.jpg" alt="">
+                </div>
+                <p class="title">Injustice 2</p>
+                <div class="platform">
+                  <span class="rating">2023</span>
+                  <img src="/reso/Steam_(service)-Logo.wine.svg" alt="">
+                  <img src="/reso/PlayStation-Icon-Logo.wine.svg" alt="">
+                  <img src="/reso/Xbox-Logo.wine.svg" alt="">
+                </div>
+              </div>
+            <div class="card">
+                <div class="img">
+                  <img src="/reso/mk.jpg" alt="">
+                </div>
+                <p class="title">Mortal Kombat XL</p>
+                <div class="platform">
+                  <span class="rating">2023</span>
+                  <img src="/reso/Steam_(service)-Logo.wine.svg" alt="">
+                  <img src="/reso/PlayStation-Icon-Logo.wine.svg" alt="">
+                  <img src="/reso/Xbox-Logo.wine.svg" alt="">
+                </div>
+              </div>
+ 
+          
+        </div>
+
+    </section>
+
+    <section id="find">
+        <input type="search" name="search" id="search" placeholder="Search games...">
+        <button type="submit"><i class="fa-sharp fa-regular fa-magnifying-glass"></i>
+        </button>
+    </section>
+
+    <section id="top-rated">
+        <h2>Video Games</h2>
+        <p>Our all time fan favourites.</p>
+        
+        <div class="carousel">
+    
+            <div class="card" onclick="hitman()">
+                <div class="img">
+                  <img src="/reso/hitman.jpg" alt="">
+                </div>
+                <p class="title">Hitman 2</p>
+                <div class="platform">
+                  <span class="rating">8.8</span>
+                  <img src="/reso/Steam_(service)-Logo.wine.svg" alt="">
+                  <img src="/reso/PlayStation-Icon-Logo.wine.svg" alt="">
+                  <img src="/reso/Xbox-Logo.wine.svg" alt="">
+                </div>
+              </div>
+            <div class="card">
+                <div class="img">
+                  <img src="/reso/hitman.jpg" alt="">
+                </div>
+                <p class="title">LEGO World</p>
+                <div class="platform">
+                  <span class="rating">8.8</span>
+                  <img src="/reso/Steam_(service)-Logo.wine.svg" alt="">
+                  <img src="/reso/PlayStation-Icon-Logo.wine.svg" alt="">
+                  <img src="/reso/Xbox-Logo.wine.svg" alt="">
+                </div>
+              </div>
+            <div class="card">
+                <div class="img">
+                  <img src="/reso/light2.jpg" alt="">
+                </div>
+                <p class="title">Dying Light</p>
+                <div class="platform">
+                  <span class="rating">8.8</span>
+                  <img src="/reso/Steam_(service)-Logo.wine.svg" alt="">
+                  <img src="/reso/PlayStation-Icon-Logo.wine.svg" alt="">
+                  <img src="/reso/Xbox-Logo.wine.svg" alt="">
+                </div>
+              </div>
+            <div class="card" onclick="mk()">
+                <div class="img">
+                  <img src="/reso/scorpion3.jpg" alt="">
+                </div>
+                <p class="title">Mortal Kombat X</p>
+                <div class="platform">
+                  <span class="rating">8.8</span>
+                  <img src="/reso/Steam_(service)-Logo.wine.svg" alt="">
+                  <img src="/reso/PlayStation-Icon-Logo.wine.svg" alt="">
+                  <img src="/reso/Xbox-Logo.wine.svg" alt="">
+                </div>
+              </div>
+    
+        </div>
+    </section>
+
+    <section id="top-rated">
+        <h2>Mobile Apps and Games</h2>
+        <p>All the fun in a pocket.</p>
+        
+        <div class="carousel">
+    
+            <div class="card">
+                <div class="img">
+                  <img src="/reso/wizard.jpg" alt="">
+                </div>
+                <p class="title">Wizarding World</p>
+                <div class="platform">
+                  <img src="/reso/Google_Play-Icon-Logo.wine.svg" alt="">
+                  <img src="/reso/App_Store_(iOS)-Logo.wine.svg" alt="">
+                </div>
+              </div>
+            <div class="card">
+                <div class="img">
+                  <img src="/reso/injustice23.jpg" alt="">
+                </div>
+                <p class="title">Injustice 2</p>
+                <div class="platform">
+                  <img src="/reso/Google_Play-Icon-Logo.wine.svg" alt="">
+                  <img src="/reso/App_Store_(iOS)-Logo.wine.svg" alt="">
+                </div>
+              </div>
+            <div class="card">
+                <div class="img">
+                  <img src="/reso/adultswim.jpg" alt="">
+                </div>
+                <p class="title">Adult Swim</p>
+                <div class="platform">
+                  <img src="/reso/Google_Play-Icon-Logo.wine.svg" alt="">
+                  <img src="/reso/App_Store_(iOS)-Logo.wine.svg" alt="">
+                </div>
+              </div>
+            <div class="card">
+                <div class="img">
+                  <img src="/reso//cn.jpg" alt="">
+                </div>
+                <p class="title">Cartoon Network</p>
+                <div class="platform">
+                  <img src="/reso/Google_Play-Icon-Logo.wine.svg" alt="">
+                  <img src="/reso/App_Store_(iOS)-Logo.wine.svg" alt="">
+                </div>
+              </div>
+    
+        </div>
+    </section>
+    
+    <section class="footer">
+
+        <div class="socials">
+          <img src="/reso/Facebook-f_Logo-Blue-Logo.wine.svg" alt="">
+          <img src="/reso/Instagram-Logo.wine.svg" alt="">
+          <img src="/reso/YouTube-Icon-Full-Color-Logo.wine.svg" alt="">
+          <img src="/reso/Twitter-Logo.wine.svg" alt="">
+          <img src="/reso/Pinterest-Icon-Logo.wine.svg" alt="">
+  
+          </div>
+
+        <div class="company-infomation">
+  
+            <a href="http://">Company</a>
+            <a href="http://">Press Releases</a>
+            <a href="http://">Careers</a>
+            <a href="http://">International</a>
+            <a href="http://">Help</a>
+            <a href="http://">Terms of Use</a>
+            <a href="http://">Privacy Policy</a>
+            <a href="http://">Sourced Traffic Disclosure</a>
+            <a href="http://">Ad Choices</a>
+            <a href="http://">Accessibility</a>
+            <a href="http://">Cookie Settings</a>
+              
+        </div>
+  
+      </section>
+
+
+      <script>
+        function gotham() {
+           window.location.href = "about/gotham.html";
+        }
+        function hitman() {
+           window.location.href = "about/hitman.html";
+        }
+        function justice() {
+           window.location.href = "about/injsutice.html";
+        }
+        function mk() {
+           window.location.href = "about/mk.html";
+        }
+      </script>
+
+</body>
+</html>
