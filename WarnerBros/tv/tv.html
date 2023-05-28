@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tv.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navigation">
+        
+        <p class="company">Warner Bros.</p>
+        <input type="checkbox" name="nav-check" id="nav-check" hidden>
+        
+        <div class="nav">
+            <p class="company">Warner Bros.</p>
+            <ul>
+                <li><a href="#" class="">Home</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Games And Apps</a></li>
+                <li><a href="#">Collections</a></li>
+            </ul>
+        </div>
+        
+        <label for="nav-check" class="ham">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+        
+    </nav>
+    
+    <!-- Feature Section -->
+
+
+    <section id="pipeline">
+
+        <h2>New Releases</h2>
+        <p>New shows to give a watch.</p>
+        
+        <div class="carousel">
+    
+            <div class="card" onclick="shrink()">
+                <div class="img">
+                  <img src="/reso/shrink.jpg" alt="">
+                </div>
+                <p class="title">Shrinking</p>
+                <div class="platform">
+                  <span class="rating">8.0</span>
+                  <img src="/reso/Netflix_2015_N_logo.svg" alt="">
+                  <img src="/reso/Hulu-Logo.wine.svg" alt="">
+                  <img src="/reso/Prime_Video-Logo.wine.svg" alt="">
+                </div>
+              </div>
+            <div class="card">
+                <div class="img">
+                  <img src="/reso/mrsdavis_1400x2100_v1.jpg" alt="">
+                </div>
+                <p class="title">Mrs. Davis</p>
+                <div class="platform">
+                  <span class="rating">7.4</span>
+                  <img src="/reso/Netflix_2015_N_logo.svg" alt="">
+                  <img src="/reso/Hulu-Logo.wine.svg" alt="">
+                  <img src="/reso/Prime_Video-Logo.wine.svg" alt="">
+                </div>
+              </div>
+            <div class="card">
+                <div class="img">
+                  <img src="/reso/velma_1400x2100_v1.jpg" alt="">
+                </div>
+                <p class="title">Velma</p>
+                <div class="platform">
+                  <span class="rating">6.3</span>
+                  <img src="/reso/Netflix_2015_N_logo.svg" alt="">
+                  <img src="/reso/Hulu-Logo.wine.svg" alt="">
+                  <img src="/reso/Prime_Video-Logo.wine.svg" alt="">
+                </div>
+              </div>
+            <div class="card" onclick="gotham()">
+                <div class="img">
+                  <img src="/reso/gotham2.jpg" alt="">
+                </div>
+                <p class="title">Gotham Knights</p>
+                <div class="platform">
+                  <span class="rating">8.9</span>
+                  <img src="/reso/Netflix_2015_N_logo.svg" alt="">
+                  <img src="/reso/Hulu-Logo.wine.svg" alt="">
+                  <img src="/reso/Prime_Video-Logo.wine.svg" alt="">
+                </div>
+              </div>
+          
+        </div>
+
+    </section>
+
+    <section id="find">
+        <input type="search" name="search" id="search" placeholder="Search your shows...">
+        <button type="submit"><i class="fa-sharp fa-regular fa-magnifying-glass"></i>
+        </button>
+    </section>
+
+    <section id="top-rated">
+        <h2>All Time Favourites</h2>
+        <p>Our tried and tested binge worthy shows.</p>
+        
+        <div class="carousel">
+    
+            <div class="card" onclick="lasso()">
+                <div class="img">
+                  <img src="/reso/lasso.jpg" alt="">
+                </div>
+                <p class="title">Ted Lasso</p>
+                <div class="platform">
+                  <span class="rating">S3</span>
+                  <img src="/reso/Netflix_2015_N_logo.svg" alt="">
+                  <img src="/reso/Hulu-Logo.wine.svg" alt="">
+                  <img src="/reso/Prime_Video-Logo.wine.svg" alt="">
+                </div>
+              </div>
+            <div class="card">
+                <div class="img">
+                  <img src="/reso/voice.jpg" alt="">
+                </div>
+                <p class="title">The Voice</p>
+                <div class="platform">
+                  <span class="rating">S23</span>
+                  <img src="/reso/Netflix_2015_N_logo.svg" alt="">
+                  <img src="/reso/Hulu-Logo.wine.svg" alt="">
+                  <img src="/reso/Prime_Video-Logo.wine.svg" alt="">
+                </div>
+              </div>
+            <div class="card">
+                <div class="img">
+                  <img src="/reso/bachelor.jpg" alt="">
+                </div>
+                <p class="title">The Bachelor</p>
+                <div class="platform">
+                  <span class="rating">S24</span>
+                  <img src="/reso/Netflix_2015_N_logo.svg" alt="">
+                  <img src="/reso/Hulu-Logo.wine.svg" alt="">
+                  <img src="/reso/Prime_Video-Logo.wine.svg" alt="">
+                </div>
+              </div>
+            <div class="card" onclick="peace()">
+                <div class="img">
+                  <img src="/reso/peace.jpg" alt="">
+                </div>
+                <p class="title">Peacemaker</p>
+                <div class="platform">
+                  <span class="rating">S4</span>
+                  <img src="/reso/Netflix_2015_N_logo.svg" alt="">
+                  <img src="/reso/Hulu-Logo.wine.svg" alt="">
+                  <img src="/reso/Prime_Video-Logo.wine.svg" alt="">
+                </div>
+              </div>
+    
+        </div>
+    </section>
+
+    <section class="footer">
+
+        <div class="socials">
+          <img src="/reso/Facebook-f_Logo-Blue-Logo.wine.svg" alt="">
+          <img src="/reso/Instagram-Logo.wine.svg" alt="">
+          <img src="/reso/YouTube-Icon-Full-Color-Logo.wine.svg" alt="">
+          <img src="/reso/Twitter-Logo.wine.svg" alt="">
+          <img src="/reso/Pinterest-Icon-Logo.wine.svg" alt="">
+  
+          </div>
+
+        <div class="company-infomation">
+  
+            <a href="http://">Company</a>
+            <a href="http://">Press Releases</a>
+            <a href="http://">Careers</a>
+            <a href="http://">International</a>
+            <a href="http://">Help</a>
+            <a href="http://">Terms of Use</a>
+            <a href="http://">Privacy Policy</a>
+            <a href="http://">Sourced Traffic Disclosure</a>
+            <a href="http://">Ad Choices</a>
+            <a href="http://">Accessibility</a>
+            <a href="http://">Cookie Settings</a>
+              
+        </div>
+  
+      </section>
+
+      <script>
+        function lasso() {
+           window.location.href = "about/lasso.html";
+        }
+        function shrink() {
+           window.location.href = "about/shrinking.html";
+        }
+        function gotham() {
+           window.location.href = "about/gotham.html";
+        }
+        function peace() {
+           window.location.href = "about/peace.html";
+        }
+      </script>
+
+
+</body>
+</html>
