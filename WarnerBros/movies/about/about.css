@@ -76,16 +76,16 @@ body {
     border-radius: 5px;
 }
 .batman {
-    background-image: url(/reso/batman.jpg);
+    background-image: url(../../../reso/batman.jpg);
 }
 .dune {
-    background-image: url(/reso/dune.jpg);
+    background-image: url(../../../reso/dune.jpg);
 }
 .matrix {
-    background-image: url(/reso/matrix\ \(2\).jpg);
+    background-image: url(../../../reso/matrix\ \(2\).jpg);
 }
 .inception {
-    background-image: url(/reso/inception2.jpg);
+    background-image: url(../../../reso/inception2.jpg);
 }
 .main * {
     margin: 0;
