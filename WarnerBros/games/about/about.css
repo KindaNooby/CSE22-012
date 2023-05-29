@@ -75,16 +75,16 @@ body {
     border-radius: 5px;
 }
 .gotham {
-    background-image: url(/reso/gotham\ knights.jpg);
+    background-image: url(../../../reso/gotham\ knights.jpg);
 }
 .injustice {
-    background-image: url(/reso/injustice23.jpg);
+    background-image: url(../../../reso/injustice23.jpg);
 }
 .hitman {
-    background-image: url(/reso/hitman.jpg);
+    background-image: url(../../../reso/hitman.jpg);
 }
 .mk {
-    background-image: url(/reso/scorpion22.jpg);
+    background-image: url(../../../reso/scorpion22.jpg);
 }
 .main * {
     margin: 0;
