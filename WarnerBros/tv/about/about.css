@@ -75,16 +75,16 @@ body {
     border-radius: 5px;
 }
 .lasso {
-    background-image: url(/reso/lasso.jpg);
+    background-image: url(../../../reso/lasso.jpg);
 }
 .shrink {
-    background-image: url(/reso/shrink.jpg);
+    background-image: url(../../../reso/shrink.jpg);
 }
 .gotham {
-    background-image: url(/reso/gotham2.jpg);
+    background-image: url(../../../reso/gotham2.jpg);
 }
 .peace {
-    background-image: url(/reso/peace2.jpg);
+    background-image: url(../../../reso/peace2.jpg);
 }
 .main * {
     margin: 0;
